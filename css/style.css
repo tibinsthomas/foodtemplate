@@ -1,0 +1,93 @@
+.bacckground {
+	background-image: url("../images/background/agency-slider-04.jpg");
+	background-size: cover;
+	height: 100vh !important;
+	background-repeat: no-repeat;
+}
+
+/* .thirdsection {
+	height: 100vh;
+} */
+.mainmanusection {
+	background-image: url("../images/background/restaurant-menu-bg.jpg");
+	background-size: cover;
+	/* height: 100vh; */
+	background-repeat: no-repeat;
+}
+/* .foodgallery {
+	height: 100vh;
+} */
+.chef {
+	/* height: 100vh; */
+	margin-top: 200px;
+}
+.chef-column {
+	margin-top: 100px !important;
+}
+.amazig {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../images/background/hero-bg9.jpg");
+	background-size: cover;
+	height: 80vh;
+}
+.ourblog {
+	/* height: 100vh; */
+}
+.enjoyback {
+	background-image: url("../images/background/fitness-about-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+.enjoypara {
+	height: 90vh !important;
+	margin-left: 15% !important;
+}
+.icons {
+	stroke: #a74d0482;
+	width: 25px;
+	height: 25px;
+}
+.bookablebg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../images/background/hero-bg3.jpg");
+	background-size: cover;
+	background-repeat: norepeat;
+	height: 100vh;
+}
+.image {
+	opacity: 0.9;
+}
+@media screen and (max-width: 768px) {
+	.mainmanusection {
+		background-image: none;
+		/* margin-top: 200px !important; */
+
+		/* height: 300vh; */
+	}
+
+	.backimage {
+		min-height: 50vh !important;
+	}
+	.backimage img {
+		width: 100%;
+		height: 40vh !important;
+	}
+	.foodgallery {
+		/* height: 400vh !important; */
+	}
+	.ourblog {
+		/* height: 250vh !important; */
+	}
+	.enjoyback {
+		background-image: none !important;
+	}
+	.enjoypara {
+		height: 160vh !important;
+		margin-left: 0 !important;
+		padding: 0 !important;
+	}
+	.enjoyemeal {
+		/* height: 350vh; */
+	}
+}
